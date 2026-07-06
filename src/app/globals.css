@@ -450,15 +450,15 @@ button {
 }
 
 .decor-planet-purple {
-  top: 44%;
-  right: -86px;
+  top: 40%;
+  right: clamp(40px, 4.5vw, 86px);
   rotate: 8deg;
   animation-delay: 3s;
 }
 
 .decor-planet-green {
   bottom: 20%;
-  left: -42px;
+  left: clamp(44px, 4vw, 76px);
   width: 86px;
   height: 86px;
   background: var(--accent-2);
@@ -1347,11 +1347,11 @@ button {
   }
 
   .decor-planet-purple {
-    right: -96px;
+    right: 36px;
   }
 
   .decor-planet-green {
-    left: -76px;
+    left: 44px;
   }
 
   .orbit-line-large {

@@ -61,7 +61,6 @@ export function CosmicAnimeStage() {
           ease: "outExpo"
         }
       })
-        .add(".cosmic-topbar", { y: [-18, 0], opacity: [0, 1] }, 0)
         .add(
           ".speech-bubble",
           { y: [34, 0], opacity: [0, 1], rotate: [-8, -2], scale: [0.82, 1] },

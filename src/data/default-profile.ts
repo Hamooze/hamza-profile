@@ -44,6 +44,13 @@ export const DEFAULT_PROFILE: Profile = {
       url: "https://barmous.ae",
       kind: "website",
       featured: false
+    },
+    {
+      id: "nemu",
+      label: "Nemu",
+      url: "https://nemu.ae",
+      kind: "website",
+      featured: false
     }
   ]
 };

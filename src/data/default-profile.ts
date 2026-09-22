@@ -5,7 +5,7 @@ export const DEFAULT_PROFILE: Profile = {
   handle: "Hamooze",
   tagline: "Software Dev and Network Cyber Security Systems Engineer",
   location: "UAE / Jordan",
-  email: "hamzatahayneh@gmail.com",
+  email: "hamza.tahayneh@nemu.ae",
   avatarUrl: "/profile-avatar.png",
   status: "Open to selected collaborations",
   intro: "A focused personal hub for work, code, socials, and direct contact.",

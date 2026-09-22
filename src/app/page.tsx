@@ -16,7 +16,7 @@ import { getProfile } from "@/lib/profile-store";
 import type { LinkKind, ProfileLink } from "@/lib/profile-types";
 
 export const runtime = "nodejs";
-export const preferredRegion = "dxb1";
+export const preferredRegion = "iad1";
 
 function readableUrl(url: string) {
   try {
@@ -186,7 +186,7 @@ export default async function Home() {
           <span>@{profile.handle}</span>
           <Orbit size={20} />
         </div>
-        <span>TRANSMISSION ENDED. // READY FOR DXB1.</span>
+        <span>TRANSMISSION ENDED.</span>
       </footer>
     </main>
   );

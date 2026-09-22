@@ -2,7 +2,7 @@
 
 A dark personal profile site for `tahayneh.com`, built with Next.js for Vercel.
 It includes a public profile page, cosmic Anime.js motion, personal links, and
-Vercel Dubai region configuration.
+Vercel hosting configuration.
 
 ## Local Development
 
@@ -18,7 +18,7 @@ Open `http://localhost:3000`.
 1. Import this repository into Vercel.
 2. Set these environment variables:
    - `NEXT_PUBLIC_SITE_URL` after the domain is ready, for example `https://tahayneh.com`
-3. Deploy. `vercel.json` is configured for the Dubai, UAE region: `dxb1`.
+3. Deploy. `vercel.json` uses the available Washington, D.C. region (`iad1`).
 
 ## Current Links
 

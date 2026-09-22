@@ -1,5 +1,5 @@
 {
   "framework": "nextjs",
-  "regions": ["dxb1"],
+  "regions": ["iad1"],
   "installCommand": "npm ci"
 }

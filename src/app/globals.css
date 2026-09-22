@@ -1093,6 +1093,39 @@ button {
   transform: scale(1.1);
 }
 
+.brand-logo {
+  display: inline-block;
+  flex: none;
+  color: var(--brand-neon, var(--accent));
+  filter:
+    drop-shadow(0 0 2px color-mix(in srgb, currentColor 65%, transparent))
+    drop-shadow(0 0 7px color-mix(in srgb, currentColor 38%, transparent));
+}
+
+.brand-logo-shape {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.brand-logo-mask {
+  background: currentColor;
+  mask: var(--brand-mask) center / contain no-repeat;
+  -webkit-mask: var(--brand-mask) center / contain no-repeat;
+}
+
+.brand-logo-github { --brand-neon: #c68aff; }
+.brand-logo-whatsapp { --brand-neon: #65ff58; }
+.brand-logo-linkedin { --brand-neon: #4bdcff; }
+.brand-logo-instagram { --brand-neon: #ff4da6; }
+.brand-logo-barmous { --brand-neon: #ffe078; }
+.brand-logo-nemu { --brand-neon: #8b9cff; }
+
+.orbit-link-card:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 7px;
+}
+
 .orbit-card-instagram .orbit-link-icon {
   color: var(--pink);
 }

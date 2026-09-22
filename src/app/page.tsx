@@ -6,8 +6,7 @@ import {
   Orbit,
   Rocket,
   Sparkles,
-  Star,
-  Zap
+  Star
 } from "lucide-react";
 import type { CSSProperties } from "react";
 import { CosmicAnimeStage } from "@/components/cosmic-anime-stage";
@@ -122,7 +121,7 @@ export default async function Home() {
             <div className="featured-inner">
               <div className="featured-copy">
                 <div className="featured-heading">
-                  <Zap size={24} aria-hidden="true" />
+                  <LinkIcon kind={featuredLink.kind} url={featuredLink.url} size={30} />
                   <h2>{featuredLink.label}</h2>
                 </div>
                 <p>{linkDescription(featuredLink)}</p>
@@ -147,7 +146,7 @@ export default async function Home() {
             target="_blank"
           >
             <span className="orbit-link-icon">
-              <LinkIcon kind={link.kind} />
+              <LinkIcon kind={link.kind} url={link.url} />
             </span>
             <span className="orbit-link-copy">
               <span className="orbit-link-label">{link.label}</span>
